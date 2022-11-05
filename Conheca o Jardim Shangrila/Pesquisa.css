@@ -1,0 +1,114 @@
+/*Style da página principal*/
+/*Fontes*/
+
+/*Cores do site
+Azul escuro = #21549A
+Azul = #195AB4
+Azul claro = #5988CA
+Cinza claro = rgb(235, 235, 235)
+
+*/
+@font-face {
+    font-family: cabi;
+    src: url(Cabin-VariableFont_wdth\,wght.ttf);}
+@font-face {
+    font-family: cairo;
+    src: url(Cairo-VariableFont_wght.ttf);}
+@font-face {
+    font-family: inter;
+    src: url(Inter-VariableFont_slnt\,wght.ttf);}
+@font-face {
+    font-family: caladea;
+    src: url(Caladea-Regular.ttf);}
+
+/*Geral*/
+sup {
+    font-size: 15px;}
+main {
+    margin-top:150px;}
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: cairo;}
+body {
+    margin: 0px;
+    width: 100%;}
+html {
+    scroll-behavior: smooth;}
+
+/*Cabeçalho*/
+header {
+    position: fixed;
+    width: 100%;
+    font-family: cairo;
+    z-index: 2;
+    top: 0px;}
+#tabela-cabecalho {
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+    border-collapse: collapse;}
+#icone-cabecalho {
+    background-color: #21549A;
+    width: 7%;
+    height: 80px;}
+#img-cabecalho {
+    width: 80px;
+    height: 80px;
+    padding: 3%;}
+#titulo-cabecalho {
+    background-color: #195AB4;
+    font-size: 35px;
+    height: 40px;
+    color: white;}
+.menu {
+    background-color: #5988CA;
+    font-size: 20px;
+    width: 18.6%;
+    height: 30px;
+    text-decoration: none;}
+.menu :hover {
+    text-decoration: none;
+    color:#195AB4}
+.link-cabecalho {
+    text-decoration: none;
+    color: white}
+
+
+
+#imagem {
+    position: absolute;
+    width: 40%;
+    top: 80px;
+    left: 40px;}
+form {
+    margin-left: 650px;
+    font-family: inter;}
+div {
+    padding: 10px;}
+select {
+    border: solid 1px #195AB4;}
+option {
+    background-color: rgb(235, 235, 235);}
+input, textarea {
+    border:#195AB4 solid 1px;
+    border-radius: 2px;}
+#idade {
+    width: 80px;}
+#nota {
+    width: 120px;}
+button {
+    background-color: #5988CA;
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+    margin-left: 180px;
+    color: white;
+    border: 0px;
+    border-radius: 2px;}
+button:hover {
+    background-color: #195AB4;}
+#enviar {
+    text-decoration: none;
+    color: white;}
+

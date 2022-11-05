@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pesquisa</title>
+<link rel="stylesheet" href="Pesquisa.css"/>
+<link rel="icon" href="Imagens Gerais/icon1.ico"/>
+</head>
+<body>
+    <!--Cabeçalho-->
+<header>
+    <table id="tabela-cabecalho">
+        <tr>
+            <td id="icone-cabecalho" rowspan="2"><img id="img-cabecalho" src="Imagens Gerais/Iconefinalbairro.png" alt="Ícone de parque"></td>
+            <td id="titulo-cabecalho" colspan="5">RESPONDA NOSSA PESQUISA</td>
+        </tr>
+        <tr>
+            <nav>
+                <td class="menu"><a class="link-cabecalho" href="Principal.html">Página inicial</a></td>
+                <td class="menu"><a class="link-cabecalho" href="Destaques.html">Destaques</a></td>
+                <td class="menu"><a class="link-cabecalho" href="Comercios.html">Comércio</a></td>
+                <td class="menu"><a class="link-cabecalho" href="Localizacao.html">Localização</a></td>
+                <td class="menu"><a class="link-cabecalho" href="Curiosidades.html">Curiosidades</a></td>
+            </nav>
+        </tr>
+    </table> 
+</header>
+<main>
+    <img id="imagem" src="Pesquisa imagens/Imagem pesquisa.png" alt="Pesquisa">
+    <form>
+        <div>
+            <label>Nome:</label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+        <div>
+            <label>Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+        </div>
+        <div>
+            <label>E-mail:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label>Sexo:</label>
+            <label>
+                <input type="radio" name="devweb" value="Masculino" required>Masculino
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="Feminino" required>Feminino
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="outro" required>Outro
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="prefiro não dizer" required>Prefiro não dizer
+            </label>
+        </div>
+        <div>
+            <label>Idade:</label>
+                <input id="idade" type="number" min="0" max="100" placeholder="Selecione" required></input>
+        </div>
+        <div>
+            <labe>Sua nota</labe>
+            <input id="nota" type="number" min="0" max="10" placeholder="Selecione (0-10)" required></input>
+
+        </div>
+        <div>
+            <br>
+            <label>Comentários:</label>
+            <textarea row="6" style="width: 300px" name="comentarios" required></textarea>
+        </div>
+        <button type="submit"><a id="enviar" href="Pesquisaenviada.html">Enviar</a></button>
+    </form>
+</main>
+</body>
+</html>

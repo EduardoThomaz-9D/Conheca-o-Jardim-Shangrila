@@ -1,0 +1,59 @@
+/*Style da página principal*/
+/*Fontes*/
+
+/*Cores do site
+Azul escuro = #21549A
+Azul = #195AB4
+Azul claro = #5988CA
+Cinza claro = rgb(235, 235, 235)
+
+*/
+@font-face {
+    font-family: cabi;
+    src: url(Cabin-VariableFont_wdth\,wght.ttf);}
+@font-face {
+    font-family: cairo;
+    src: url(Cairo-VariableFont_wght.ttf);}
+@font-face {
+    font-family: inter;
+    src: url(Inter-VariableFont_slnt\,wght.ttf);}
+@font-face {
+    font-family: caladea;
+    src: url(Caladea-Regular.ttf);}
+
+/*Geral*/
+body {
+    margin: 0px;
+    width: 100%;}
+html {
+    font-family: cairo;
+    scroll-behavior: smooth;}
+p {
+    position: absolute;
+    left: 620px;
+    top: -10px;
+    font-size: 70px;}
+button {
+    position: absolute;
+    left: 620px;
+    top: 520px;
+    font-size: 40px;
+    width: 200px;
+    height: 50px;
+    background-color: #5988CA;
+    border: 0px;
+    border-radius: 2px;}
+a {
+    text-decoration: none;
+    color: white;}
+
+#imagem {
+    position: absolute;
+    top: 0px;
+    height: 600px;
+    margin-left: 0px;}
+
+
+
+
+
